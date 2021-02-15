@@ -1,5 +1,4 @@
-﻿using System.Media;
-using System.Windows;
+﻿using System.Windows;
 
 namespace Lab_5
 {
@@ -12,9 +11,9 @@ namespace Lab_5
         {
             InitializeComponent();
 
-            var soundPlayer = new SoundPlayer(Lab_5.Properties.Resources.SineWaveMinus16);
+            /*var soundPlayer = new SoundPlayer(Lab_5.Properties.Resources.SineWaveMinus16);
             soundPlayer.Play();
-            soundPlayer.Stop();
+            soundPlayer.Stop();*/
         }
     }
 }
